@@ -33,14 +33,7 @@ section::before
                 0 0 0 1.3vw #fff;
     
 }
-h3
-{
-    position: absolute;
-    font-size: 4vw;
-    color: rgb(33, 19, 230);
-    z-index: 11;
-    top: -10px;
-}
+
 
 h2{
     position: absolute;
@@ -58,6 +51,34 @@ h2{
     10px 10px 0 rgb(0, 0, 0,0.2);
     animation: floating 5s ease-in-out infinite;
 
+}
+h2 a
+{
+   
+    background: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+   
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: #f35626;
+    animation: hue 6s infinite linear;
+    -webkit-animation: hue 6s infinite linear;
+    font-size: 4vw;
+   line-height: 1em;
+   transform: translate(0%,-40px);
+   
+   
+    
+}
+@keyframes hue {
+    from {
+        filter: hue-rotate(0deg);
+      -webkit-filter: hue-rotate(0deg);
+    }
+    
+    to {
+        filter: hue-rotate(360deg);
+      -webkit-filter: hue-rotate(360deg);
+    }
 }
 h2 span
 {
