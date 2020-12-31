@@ -33,6 +33,14 @@ section::before
                 0 0 0 1.3vw #fff;
     
 }
+h3
+{
+    position: absolute;
+    font-size: 4vw;
+    color: rgb(33, 19, 230);
+    z-index: 11;
+    top: -10px;
+}
 
 h2{
     position: absolute;
